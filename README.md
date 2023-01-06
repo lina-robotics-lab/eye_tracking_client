@@ -1,2 +1,2 @@
-# eye_tracking_client
-The client ROS package for automatic eye tracking.
+# robot-eye-tracking-acquisition
+The Python repository for automatic eye tracking acquisition using a robotic arm.
