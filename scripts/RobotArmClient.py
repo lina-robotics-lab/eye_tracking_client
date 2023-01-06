@@ -5,8 +5,8 @@ roslib.load_manifest('eye_tracking_client')
 import rospy
 import actionlib
 
-from eye_tracking.msg import GoToAction, GoToGoal
-from eye_tracking.srv import nbOfPosition
+from eye_tracking_client.msg import GoToAction, GoToGoal
+from eye_tracking_client.srv import nbOfPosition
 
 class RobotArmController():
     

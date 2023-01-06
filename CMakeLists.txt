@@ -8,16 +8,6 @@ project(eye_tracking_client)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  # cl_conversions
-  geometric_shapes
-  interactive_markers
-  pcl_ros
-  pluginlib
-  rosbag
-  rviz_visual_tools
-  tf2_eigen
-  tf2_geometry_msgs
-  tf2_ros
   genmsg 
   actionlib_msgs 
   actionlib
@@ -111,7 +101,7 @@ generate_messages(DEPENDENCIES actionlib_msgs std_msgs)
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES eye_tracking
-#  CATKIN_DEPENDS cl_conversions geometric_shapes interactive_markers moveit_core moveit_ros_perception moveit_ros_planning moveit_ros_planning_interface moveit_visual_tools pcl_ros pluginlib rosbag rviz_visual_tools tf2_eigen tf2_geometry_msgs tf2_ros
+#  CATKIN_DEPENDS cl_conversions geometric_shapes interactive_markers moveit_core 
 #  DEPENDS system_lib
 )
 
