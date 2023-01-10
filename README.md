@@ -18,5 +18,5 @@ controller = RobotArmController()
 waypoint_idx = 20
 controller.goto(waypoint_idx). # This sends a request to the server to move the robot arm to the 20th waypoint. 
 
-# The goto(idx) function will want until the server has sent back a result before moving on to the next line of code.
 ```
+The `goto(idx)` method will want until the server has sent back a result before moving on to the next line of code.
