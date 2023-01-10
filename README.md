@@ -8,7 +8,15 @@ $ roscore
 $ Bringup the robot and start the MoveIt! control interface.
 $ rosrun eye_tracking_server RobotArmServer.py
 ```
-Then, in your own code, use the client class as follows.
+
+On the computer running the client code, make sure to set the ROS IP parameters properly.
+
+```bash
+$ export ROS_MASTER_URI=http://192.168.xx.xx:11311 # The ROS_MASTER_URI should be set as the IP of the computer running the server code.
+$ export ROS_HOSTNAME=192.168.xx.xxx # The ROS_HOSTNAME should be set as the IP of the computer running the client code.
+```
+
+Then, in your own code, you may use the client class as follows.
 
 ```python
 from RobotArmClient import RobotArmController
