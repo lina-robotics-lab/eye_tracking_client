@@ -3,9 +3,9 @@ This is the client Python repository for automatic eye tracking acquisition usin
 
 To use the client, first install the eye_tracking_server package(see documentations for https://github.com/lina-robotics-lab/eye_tracking_server), and ensure the server is running by 
 ```bash
-$ Source the ROS workspace
+$ # Source the ROS workspace
 $ roscore
-$ Bringup the robot and start the MoveIt! control interface.
+$ # Bringup the robot and start the MoveIt! control interface.
 $ rosrun eye_tracking_server RobotArmServer.py
 ```
 
